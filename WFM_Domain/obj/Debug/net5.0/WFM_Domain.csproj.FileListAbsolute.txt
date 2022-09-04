@@ -1,0 +1,12 @@
+D:\WFM_Project\WFM_Domain\bin\Debug\net5.0\WFM_Domain.deps.json
+D:\WFM_Project\WFM_Domain\bin\Debug\net5.0\WFM_Domain.dll
+D:\WFM_Project\WFM_Domain\bin\Debug\net5.0\ref\WFM_Domain.dll
+D:\WFM_Project\WFM_Domain\bin\Debug\net5.0\WFM_Domain.pdb
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\WFM_Domain.csproj.AssemblyReference.cache
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\WFM_Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\WFM_Domain.AssemblyInfoInputs.cache
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\WFM_Domain.AssemblyInfo.cs
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\WFM_Domain.csproj.CoreCompileInputs.cache
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\WFM_Domain.dll
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\ref\WFM_Domain.dll
+D:\WFM_Project\WFM_Domain\obj\Debug\net5.0\WFM_Domain.pdb
