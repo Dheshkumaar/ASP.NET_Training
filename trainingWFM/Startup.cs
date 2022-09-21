@@ -34,6 +34,7 @@ namespace trainingWFM
         {
 
             services.AddControllers();
+            services.AddControllersWithViews();
             services.AddDbContext<WFMdbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultCon")));
             services.TryAddScoped<IEmployeesService, EmployeesService>();
             services.TryAddScoped<ISkillsService, SkillsService>();
@@ -61,6 +62,9 @@ namespace trainingWFM
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                         name: "default",
+                         pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllers();
             });
         }
