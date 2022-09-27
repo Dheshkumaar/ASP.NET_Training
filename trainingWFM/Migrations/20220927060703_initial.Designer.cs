@@ -9,8 +9,8 @@ using trainingWFM.Models;
 namespace trainingWFM.Migrations
 {
     [DbContext(typeof(WFMdbContext))]
-    [Migration("20220920183415_init")]
-    partial class init
+    [Migration("20220927060703_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

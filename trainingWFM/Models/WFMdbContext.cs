@@ -51,7 +51,5 @@ namespace trainingWFM.Models
             modelBuilder.Entity<Skillmaps>().HasOne(a => a.skills).WithMany(b => b.skillmaps).HasForeignKey(c => c.skillid);
             #endregion
         }
-
-        public DbSet<trainingWFM.Models.Employeeswithskills> Employeeswithskills { get; set; }
     }
 }

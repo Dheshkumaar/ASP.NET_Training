@@ -35,6 +35,7 @@ namespace trainingWFM
 
             services.AddControllers();
             services.AddControllersWithViews();
+            services.AddRazorPages();
             services.AddDbContext<WFMdbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultCon")));
             services.TryAddScoped<IEmployeesService, EmployeesService>();
             services.TryAddScoped<ISkillsService, SkillsService>();
@@ -53,6 +54,7 @@ namespace trainingWFM
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "trainingWFM v1"));
             }
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 
@@ -66,6 +68,8 @@ namespace trainingWFM
                          name: "default",
                          pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllers();
+
+                endpoints.MapRazorPages();
             });
         }
     }

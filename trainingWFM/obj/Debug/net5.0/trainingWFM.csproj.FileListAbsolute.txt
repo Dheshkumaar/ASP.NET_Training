@@ -279,3 +279,5 @@ D:\WFM_Project\trainingWFM\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScript
 D:\WFM_Project\trainingWFM\obj\Debug\net5.0\trainingWFM.RazorTargetAssemblyInfo.cs
 D:\WFM_Project\trainingWFM\obj\Debug\net5.0\trainingWFM.Views.pdb
 D:\WFM_Project\trainingWFM\obj\Debug\net5.0\trainingWFM.csproj.AssemblyReference.cache
+D:\WFM_Project\trainingWFM\obj\Debug\net5.0\Razor\Views\Home.cshtml.g.cs
+D:\WFM_Project\trainingWFM\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
